@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    position: relative;
+}
+#header-img{
+    width: 450px;
+    height: 80px;
+}
+#video{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 300px;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (max-width: 600px)
+#header {
+    flex-wrap: wrap;
+}
+header {
+    position: fixed;
+}
+h1{
+    border: 1px solid red;
+    float: right;
+    position: relative;
+    top: 300px;
+}
